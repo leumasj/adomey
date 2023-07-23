@@ -30,7 +30,7 @@ DEBUG = os.getenv("DEBUG", "False").lower() == "true"
 
 APPEND_SLASH=False
 
-ALLOWED_HOSTS = ['127.0.0.1','adomey-portfolio.onrender.com', 'www.adomey.com', 'adomey.com']
+ALLOWED_HOSTS = ['127.0.0.1',''adomey.onrender.com', 'www.adomey.com', 'adomey.com']
 
 
 
