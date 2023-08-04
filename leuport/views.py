@@ -58,6 +58,9 @@ def blog(request):
 def blogs(request):
    return render(request, 'leuport/blogs.html')
 
+def pj(request):
+   return render(request, 'leuport/pj.html')
+
 
 
 

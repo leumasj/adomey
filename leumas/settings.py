@@ -26,11 +26,11 @@ SECRET_KEY = 'django-insecure-rdi2vgvdnz)(kutliviuwh1gcc(-k$0a(^!m*au56=ik&+t-nk
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = True
+DEBUG = os.getenv("DEBUG", "False").lower() == "true"
 
 APPEND_SLASH=False
 
-ALLOWED_HOSTS = ['127.0.0.1','adomeh-portfolio.onrender.com', 'www.adotech.pl', 'adotech.pl']
+ALLOWED_HOSTS = ['127.0.0.1', 'adomey.onrender.com', 'www.adomey.com', 'adomey.com']
 
 
 

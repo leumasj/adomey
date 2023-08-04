@@ -17,6 +17,8 @@ urlpatterns = [
     path('blog', views.blog, name='leuport-blog'),
     path('blogs', views.blogs, name='leuport-blogs'),
     path('success/', ContactSuccessView.as_view(), name="success"),
-    
+    path('pj', views.pj, name='leuport-pj'),
+
+
 
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
