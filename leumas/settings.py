@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-rdi2vgvdnz)(kutliviuwh1gcc(-k$0a(^!m*au56=ik&+t-nk
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = os.getenv("DEBUG", "False").lower() == "true"
+DEBUG = os.getenv("DEBUG", "False").lower() == "false"
 
 APPEND_SLASH=False
 
